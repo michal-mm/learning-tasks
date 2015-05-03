@@ -12,7 +12,7 @@ public class Szkola {
          */
 
         /*
-         * TODO - skorzystaj z klasy UczenBuilder, zeby wyprodukowac 5 uczniow
+         * TODO - skorzystaj z klasy UczenBuilder, zeby wyprodukowac 6 uczniow
          * Nazwij ich dowolnie, przypisz im dowolne oceny.
          * Skorzystaj ze stworzonej powyzej instancji obiektu typu Klasa
          * i przypisz do niej uczniow

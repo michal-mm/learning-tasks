@@ -1,0 +1,59 @@
+*** ZADANIE ***
+Zadanie jest związane ze szkołą.
+
+
+*** WPROWADZENIE ***
+(opis jest ogólny, najlepiej zrobić to na koniec, ale warto przeczytać na początku :-)
+
+Klasa Szkola ma jedna metode statyczna main i ma służyć do uruchamiania programu.
+W metodzie main należy skorzystać z klasy UczenBuilder, żeby wyprodukować 6 uczniów
+(6 różnych obiektów typu Uczen). Należy też stworzyć instancję klasy typu Klasa,
+w której będą trzymani uczniowie.
+Jak już klasa zostanie wypełniona uczniami, należy wypisać listę uczniów,
+potem listę uczniów z ich ocenami (trzeba skorzystać z odpowiednich metod
+w klasie Klasa). Na koniec trzeba wypisać na ekran informację o nazwie klasy oraz liczbie uczniów.
+
+
+*** ZRÓB COŚ Z UCZNIEM ***
+Obiekt Uczen ma posiadać następujące pola:
+- imie (typu napisowego)
+- nazwisko (typu napisowego)
+- ocenaPolski (typ liczbowy calkowity)
+- ocenaMatematyka (typ liczbowy calkowity)
+- ocenaReligia (typ liczbowy calkowity)
+
+Należy zaimplementować konstruktor tej klasy, a jako parametry przekazać wszystkie powyższe dane
+
+Zaimplementuj metode, która zwróci typ double - średnią ocen ucznia
+
+Zaiplementuj metodę, która wypisze na ekran informacje o uczniu na przykład tak:
+imie nazwisko: pol=ocena_z_polskiego, mat=ocena_z_matmy, rel=ocena_z_religii, sr=<srednia_ocen
+
+
+*** BUDOWNICZY UCZNIÓW ***
+W klasie UczenBuilder zaimplementuj metode wypieczUcznia.
+Metoda ma zwrócić obiekt typu Uczen, a jako parametry ma dostać wszystkie parametry potrzebne
+do stworzenia takiego obiektu.
+
+
+*** IMPLEMENTACJA OBIEKTU TYPU Klasa ***
+W pliku Klasa.java jest błąd - trzeba poprawić importy.
+Obiekt klasa ma mieć pole tekstowe z nazwą danej klasy np. "Klasa 3B".
+Obiekt typu Klasa ma mieć pole z tablicą obiektów typu Uczen, w klasie może być maksymalnie 5 uczniów.
+
+Obiekt Klasa ma dać metodę do wypisania listy uczniów. Lista ma być w kolejności przechowywania:
+1. Paweł Kukiz
+2. Janusz Korwin-Mikke
+3. Bronisław Komorowski
+...
+
+Obiekt typu Klasa ma dać metodę do wypisania listy uczniów (jak poprzednio),
+ale poszerzoną o ich oceny oraz średnią.
+
+Obiekt typu Klasa ma dawać metodę na dodawanie nowego ucznia do listy.
+Ta metoda ma zwracać true/false, w zależności czy uda się
+Ta metoda ma zwracać true/false, w zależności czy uda się dopisać, czy nie.
+Oprócz tego powinno wypisać jakiś tekst w rodzaju:
+"Jan Kowalski zapisany do Klasa 3B", albo "Klasa 3B jest już pełna - Kowalski szukaj innej szkoły!"
+
+Obiekt typu Klasa powinien dawać metodę zwracającą liczbę uczniów w tej klasie
